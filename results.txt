@@ -1,0 +1,171 @@
+0 d Djikstra: 	0
+0 d FloydWarshall: 	0
+0 s Djikstra: 	0
+0 s FloydWarshall: 	0
+50 d Djikstra: 	0.007
+50 d FloydWarshall: 	0.003
+50 s Djikstra: 	0.004
+50 s FloydWarshall: 	0.003
+100 d Djikstra: 	0.05
+100 d FloydWarshall: 	0.024
+100 s Djikstra: 	0.041
+100 s FloydWarshall: 	0.027
+150 d Djikstra: 	0.168
+150 d FloydWarshall: 	0.081
+150 s Djikstra: 	0.151
+150 s FloydWarshall: 	0.088
+200 d Djikstra: 	0.392
+200 d FloydWarshall: 	0.186
+200 s Djikstra: 	0.365
+200 s FloydWarshall: 	0.199
+250 d Djikstra: 	0.759
+250 d FloydWarshall: 	0.363
+250 s Djikstra: 	0.707
+250 s FloydWarshall: 	0.385
+300 d Djikstra: 	1.316
+300 d FloydWarshall: 	0.626
+300 s Djikstra: 	1.248
+300 s FloydWarshall: 	0.656
+350 d Djikstra: 	2.091
+350 d FloydWarshall: 	0.992
+350 s Djikstra: 	2
+350 s FloydWarshall: 	1.031
+400 d Djikstra: 	3.108
+400 d FloydWarshall: 	1.478
+400 s Djikstra: 	2.974
+400 s FloydWarshall: 	1.543
+450 d Djikstra: 	4.418
+450 d FloydWarshall: 	2.101
+450 s Djikstra: 	4.235
+450 s FloydWarshall: 	2.186
+500 d Djikstra: 	6.026
+500 d FloydWarshall: 	2.883
+500 s Djikstra: 	5.854
+500 s FloydWarshall: 	2.977
+550 d Djikstra: 	8.012
+550 d FloydWarshall: 	3.879
+550 s Djikstra: 	7.84
+550 s FloydWarshall: 	3.959
+600 d Djikstra: 	10.464
+600 d FloydWarshall: 	4.967
+600 s Djikstra: 	10.229
+600 s FloydWarshall: 	5.112
+650 d Djikstra: 	13.322
+650 d FloydWarshall: 	6.347
+650 s Djikstra: 	13.045
+650 s FloydWarshall: 	6.529
+700 d Djikstra: 	16.905
+750 d Djikstra: 	20.557
+750 d FloydWarshall: 	9.731
+750 s Djikstra: 	20.163
+750 s FloydWarshall: 	9.964
+800 d Djikstra: 	24.895
+800 d FloydWarshall: 	11.829
+800 s Djikstra: 	24.407
+800 s FloydWarshall: 	12.07
+850 d Djikstra: 	29.947
+850 d FloydWarshall: 	14.213
+850 s Djikstra: 	29.322
+850 s FloydWarshall: 	14.505
+900 d Djikstra: 	35.58
+900 d FloydWarshall: 	17.117
+900 s Djikstra: 	37.142
+900 s FloydWarshall: 	18.008
+950 d Djikstra: 	43.419
+950 d FloydWarshall: 	20.442
+950 s Djikstra: 	41.584
+950 s FloydWarshall: 	20.133
+1000 d Djikstra: 	48.326
+1000 d FloydWarshall: 	22.848
+1000 s Djikstra: 	47.667
+1000 s FloydWarshall: 	23.204
+
+Djikstra:
+nodes	sparse	dense
+0	0	0
+50	0.004	0.007
+100	0.041	0.05
+150	0.151	0.168
+200	0.365	0.392
+250	0.707	0.759
+300	1.248	1.316
+350	2	2.091
+400	2.974	3.108
+450	4.235	4.418
+500	5.854	6.026
+550	7.84	8.012
+600	10.229	10.464
+650	13.045	13.322
+750	20.163	20.557
+800	24.407	24.895
+850	29.322	29.947
+900	37.142	35.58
+950	41.584	43.419
+1000	47.667	48.326
+
+Floyd:
+node	sparse	dense
+0	0	0
+50	0.003	0.003
+100	0.027	0.024
+150	0.088	0.081
+200	0.199	0.186
+250	0.385	0.363
+300	0.656	0.626
+350	1.031	0.992
+400	1.543	1.478
+450	2.186	2.101
+500	2.977	2.883
+550	3.959	3.879
+600	5.112	4.967
+650	6.529	6.347
+750	9.964	9.731
+800	12.07	11.829
+850	14.505	14.213
+900	18.008	17.117
+950	20.133	20.442
+1000	23.204	22.848
+
+nodes	djikstra	floyd
+0	0	0
+50	0.007	0.003
+100	0.05	0.024
+150	0.168	0.081
+200	0.392	0.186
+250	0.759	0.363
+300	1.316	0.626
+350	2.091	0.992
+400	3.108	1.478
+450	4.418	2.101
+500	6.026	2.883
+550	8.012	3.879
+600	10.464	4.967
+650	13.322	6.347
+750	20.557	9.731
+800	24.895	11.829
+850	29.947	14.213
+900	35.58	17.117
+950	43.419	20.442
+1000	48.236	22.848
+
+nodes	djikstra	floyd
+0	0	0
+50	0.004	0.003
+100	0.041	0.027
+150	0.151	0.088
+200	0.365	0.199
+250	0.707	0.385
+300	1.248	0.656
+350	2	1.031
+400	2.974	1.543
+450	4.235	2.186
+500	5.854	2.977
+550	7.84	3.959
+600	10.229	5.112
+650	13.045	6.529
+750	20.163	9.964
+800	24.407	12.07
+850	29.322	14.505
+900	37.142	18.008
+950	41.584	20.133
+1000	48.236	23.204
